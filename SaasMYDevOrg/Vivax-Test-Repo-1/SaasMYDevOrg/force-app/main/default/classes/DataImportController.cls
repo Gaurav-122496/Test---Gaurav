@@ -93,6 +93,9 @@ public with sharing class DataImportController {
         }
     }
 
+       public static test1(List<Account> acc){
+           System.debug('track');
+       }
     
 
     public class SObjectDescribe{
